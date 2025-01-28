@@ -1,8 +1,6 @@
 FROM python:3.7-slim-buster
 
-RUN sudo -s apt-get update -y
-RUN sudo snap install awscli --classic
-
+#RUN sudo -s apt-get update -y && sudo snap install awscli --classic
 WORKDIR /app
 
 COPY . /app
