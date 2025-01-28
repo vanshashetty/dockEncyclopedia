@@ -1,4 +1,4 @@
-FROM python:3.13.1-alpine
+FROM python:3.9.19-alpine3.19
 
 #RUN sudo -s apt-get update -y && sudo snap install awscli --classic
 WORKDIR /app
