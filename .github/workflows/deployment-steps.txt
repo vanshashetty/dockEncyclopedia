@@ -45,7 +45,7 @@
     then run command one by one
 
 
-7. Setup github secrets:
+7. Setup github secrets on runners page:
 
     AWS_ACCESS_KEY_ID=
 
