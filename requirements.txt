@@ -6,7 +6,7 @@ python-dotenv
 grpcio
 grpcio-tools
 pinecone-client
-pinecone[grpc]
+pinecone-client[grpc]==5.0.1
 langchain-pinecone
 langchain-community
 langchain-openai
