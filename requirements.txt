@@ -3,9 +3,8 @@ langchain
 flask
 pypdf
 python-dotenv
-grpcio
-grpcio-tools
 pinecone-client
+pinecone-client[grpc]
 langchain-pinecone
 langchain-community
 langchain-openai

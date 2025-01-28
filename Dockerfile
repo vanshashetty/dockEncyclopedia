@@ -1,10 +1,10 @@
-FROM python:3.7-slim-buster
+FROM python:3.13.1-alpine
 
 #RUN sudo -s apt-get update -y && sudo snap install awscli --classic
 WORKDIR /app
 
 COPY . /app
 
-RUN python3 -m pip install -r requirements.txt
+RUN pip install -r requirements.txt
 
 CMD ["python3", "app.py"]
